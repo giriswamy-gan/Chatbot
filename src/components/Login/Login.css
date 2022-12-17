@@ -1,0 +1,62 @@
+.login {
+    position: relative;
+    height: 95vh;
+}
+
+.main_text {
+    color: #50a3a2;
+    height: 65vh;
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.login-text {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 44%;
+}
+
+#UserName {
+    position: absolute;
+    top: 45%;
+    left: 32%;
+    width: 250px;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+#Password {
+    position: absolute;
+    top: 50%;
+    left: 32%;
+    width: 250px;
+    font-weight: 300;
+    font-size: 15px;
+}
+.submit {
+    color: grey;
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: center;
+    background: rgb(68, 196, 196);
+    cursor: pointer;
+    border: 1px solid grey;  
+    position: absolute;
+    top: 55%;
+    left: 32%;
+    border-radius: 3px;
+    width: 250px;
+    font-size: 17px;
+    height: 25px;
+}
+
+.submit:active {
+    border: 3px solid black;
+  }

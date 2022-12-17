@@ -1,0 +1,24 @@
+.navbar{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    position: relative;
+    height: 4rem;
+    border-bottom: 2px solid #333;
+}
+.navbar__logo{
+    margin-left: 3rem;
+    font-size: 1.5rem;
+}
+.navbar__links{
+    position: absolute;
+    right: 0;
+    top: 1.5rem;
+    float: right;
+    margin-right: 3rem;
+}
+.navbar__links a{
+    margin: 0.5rem;
+    text-decoration: none;
+}
